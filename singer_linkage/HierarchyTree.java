@@ -6,9 +6,9 @@ import java.util.Queue;
 
 
 public class HierarchyTree {
-  private  TNode headNode;
-
 	
+        private  TNode headNode
+        
 	//visit by level
 	public void LayerOrder( ){
 		System.out.println("Travel by level:");
@@ -61,9 +61,6 @@ public class HierarchyTree {
 		this.headNode = headNode;
 	}
 
-	public int findNode(Object data) {
-		return 0;
-	}
 
 }
 
